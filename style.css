@@ -6,7 +6,7 @@
 ul li{
     list-style: none;
     float: left;
-    padding: 0px 50px;
+    margin-left:15px;
     
 }
 ul li a {

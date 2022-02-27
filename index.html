@@ -7,6 +7,8 @@
     <title>Ashu home</title>
     <link rel="stylesheet" href="style.css">
     <link ref="stylesheet" href="ashu.css">
+    <link rel="stylesheet" href="res.css" />
+   
     
     
     <style>
@@ -19,7 +21,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   float: left;
  
   width:33%;
-  margin-bottom: 16px;
+ 
 
     
   
@@ -55,8 +57,34 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </head>
 <body>
    <div class="first">
-       <center><h4>C.L.M.S<br> Canteen Liquor Management System</h4></center>
+       <center><h4> Canteen Liquor Management System</h4></center>
 </div>
+<header>
+      <div id="brand"><a href="#">C.L.M.S.</a></div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li id="login"><a href="#" >Login</a></li>
+          <li id="signup"><a href="#">Signup</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/about">About</a></li>
+          <li id="login"><a href="/login" >Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </div>
+      
+    </header>
+    
    
     <div class="photo">
         <div class="slideshow-container">
@@ -149,5 +177,6 @@ function showSlides() {
   setTimeout(showSlides, 6000); // Change image every 6 seconds
 }
 </script>
+<script src="index.js"></script>
 </body>
 </html>

@@ -3,22 +3,7 @@
     color: white;
 }
 
-ul li{
-    list-style: none;
-    float: left;
-    margin-left:25px;
-    
-}
-ul li a {
-    text-decoration: none;
-    cursor: pointer;
-    
-}
-ul li a:hover{
-    color: white;
-    background-color: indigo;
-    zoom: 101%;
-}
+
 .photo{
    text-align: center;
     border: 2px solid indigo;
